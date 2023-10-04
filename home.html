@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poiana Brasov</title>
+    <link rel="stylesheet" href="style_test.css">
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body> 
+        <script>
+            var sf = new Snowflakes({
+                color: "#0939c8",
+                count: 80,
+                speed: 1.5
+            });
+        </script>
+        
+    <img id="main_img" src="resurse\POINA_BRASOV_winter-panorama_2022-11-22-1_C.jpg">
+    <a href="domeniul_ski.html"><img id="main_png" src="resurse\POINA_BRASOV_winter-panorama_2022-11-22-1_C.png"></a>
+    <a href="home.html"><img id="logo" src="resurse\Logo negru.png"></a>
+        
+    <div class="menu" onclick="this.classList.toggle('open')">
+        <div class="button" onclick="location.href='informatii.html'"></div>
+        <div class="button" onclick="location.href='domeniul_ski.html'"></div>
+        <div class="button" onclick="location.href='register.html'"></div>
+      </div>
+</body>
+</html>

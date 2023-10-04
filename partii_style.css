@@ -1,0 +1,50 @@
+body {
+    background-color:#546279 ;
+}
+
+#logo {
+    height: 150px;
+    left: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#header {
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.5);
+    opacity: 100%;
+    background-color: #546279;
+}
+
+#partie {
+    height: 70%;
+    width: 35%;
+    border-radius: 15px;
+    margin-left: 2%;
+}
+
+#titlu {
+    font-family: 'Georgia', serif;
+    text-indent: 2%;
+    margin-top: 5%;
+}
+
+#content {
+    background-color: #8791a1;
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.5);
+    text-indent: 2%;
+    font-family: 'Georgia', serif;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 15px;
+    
+}
+
+#text {
+    padding: 2%;
+}

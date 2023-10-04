@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domeniul Ski</title>
+    <link rel="stylesheet" href="domeniu_style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <a href="home.html"><img id="logo" src="resurse\Logo negru.png"></a>
+    </div>
+    <div id="content">
+        <h2>
+            Despre Poiana Brasov
+        </h2>
+       <p>
+        Prima atestare documentată pentru Poiana Brașov datează din anul 1427, în contextul activităților de oierit ce aveau loc aici.
+       </p>
+       <p>
+        Poiana Brașov a fost fondată în 1895, iar în 1906 a devenit stațiune de schi și a găzduit prima compeție de ski din Romania. Prima competiție importantă desfășurată a fost cea de-a IX-a ediție a Jocurile Mondiale Universitare de Iarnă din 1951.
+       </p>
+       <p>
+        Poiana Brașov se află la o altitudine de 1020 m, la baza Masivului Postavarul; cel mai înalt pisc este vârful cu aceeași denumire Vârful Postăvarul (popular „Postăvaru”), având o înalțime de 1799 m.
+       </p>
+       <h2>
+        Domeniul schiabil
+       </h2>
+       <p>
+        Domeniul schiabil din Poiana Brașov are o suprafață de 80 km pătrați și include 10 pârtii omologate cu dimensiuni variate şi toate gradele de dificultate totalizând 24.5 kilometri.
+       </p>
+    </div>
+
+    <h1>
+        Partii
+    </h1>
+
+    <div class="image-gallery">
+        <div class="row row-1">
+          <div class="image-container">
+            <img src="resurse\partie_drumul_rosu.jpg" alt="Imagine 1">
+            
+            <button class="btn-1" onclick="redirectioneaza_dr_rosu()">Partia Drumul Rosu</button>
+            
+          </div>
+          <div class="image-container">
+            <img src="resurse\partie_sulinar.jpg" alt="Imagine 2">
+            
+            <button class="btn-2" onclick="redirectioneaza_sulinar()">Partia Sulinar</button>
+           
+          </div>
+          <div class="image-container">
+            <img src="resurse\partie_lupului.jpg" alt="Imagine 3">
+           
+            <button class="btn-3" onclick="redirectioneaza_lup()">Partia Lupului</button>
+            
+          </div>
+        </div>
+        <div class="row row-2">
+          <div class="image-container">
+            <img src="resurse\partie_subteleferic.jpeg" alt="Imagine 4">
+            
+            <button class="btn-4" onclick="redirectioneaza_subtele()">Partia Subteleferic</button>
+            
+          </div>
+          <div class="image-container">
+            <img src="resurse\partie_kanzel.jpg" alt="Imagine 5">
+            
+            <button class="btn-5" onclick="redirectioneaza_kanzel()">Partia Kanzel</button>
+            
+          </div>
+          <div class="image-container">
+            <img src="resurse\partie_stadion.JPG" alt="Imagine 6">
+            
+            <button class="btn-6" onclick="redirectioneaza_stadion()">Partia Stadion</button>
+           
+          </div>
+        </div>
+      </div>
+      <section class="weather-section wow fadeInUp" id="vremea">
+        <div class="container">
+         
+          <div class="mar-bottom-40">
+            <h2>Vremea</h2>
+            <div class="div-paragraph">Află rapid care este starea vremei în acest moment, precum și prognoza pentru următoarele zile.</div>
+          </div>
+          <div>
+            <div class="weather-widget-style" id="weather-widget">
+              <iframe src="https://www.meteoblue.com/en/weather/widget/three/poiana-brasov_romania_6693026?geoloc=fixed&amp;nocurrent=0&amp;noforecast=0&amp;days=7&amp;tempunit=CELSIUS&amp;windunit=KILOMETER_PER_HOUR&amp;layout=bright&amp;location_url=https%3A%2F%2Fwww.meteoblue.com%2Fen%2Fweather%2Fwidget%2Fthree%2Fpoiana-brasov_romania_6693026&amp;location_mainUrl=https%3A%2F%2Fwww.meteoblue.com%2Fen%2Fweather%2Fweek%2Fpoiana-brasov_romania_6693026&amp;nolocation_url=https%3A%2F%2Fwww.meteoblue.com%2Fen%2Fweather%2Fwidget%2Fthree&amp;nolocation_mainUrl=https%3A%2F%2Fwww.meteoblue.com%2Fen%2Fweather%2Fweek%2Findex&amp;dailywidth=115&amp;tracking=%3Futm_source%3Dweather_widget%26utm_medium%3Dlinkus%26utm_content%3Dthree%26utm_campaign%3DWeather%252BWidget"
+               frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 805px;height: 623px">
+              </iframe>
+               <div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

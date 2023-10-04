@@ -1,0 +1,40 @@
+body {
+    background-color: #288CA1;
+}
+
+#main_img {
+    position: absolute;
+    top: 30px;
+    left: 12%;
+    display: flex;
+    box-shadow: 0px 0px 1rem 1.2rem #E7EDEF;
+    height: auto;
+    z-index: 1;
+}
+
+
+#main_png {
+    position: absolute;
+    top: 30px;
+    left: 12%;
+    display: flex;
+    
+    height: auto;
+    z-index: 2;
+
+    transition: transform .2s;
+}
+#main_png:hover{
+    transform:scale(1.01);
+}
+
+#logo {
+    height: 250px;
+    top: 40px;
+    left: 250px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    z-index: 3;
+}
